@@ -3,7 +3,7 @@ fun main(args: Array<String>) {
     val exercicio = Exercicios()
 
     //Exercicio 1
-    /*exercicio.validaNumeros(listOf(
+    exercicio.validaNumeros(listOf(
         1,
         2,
         3,
@@ -11,14 +11,14 @@ fun main(args: Array<String>) {
         8))
 
     //Exercicio 3
-    println(exercicio.analisaNumeroPar(4))
+    //println(exercicio.analisaNumeroPar(4))
 
     //Exercicio 4
-    exercicio.primeirosCemInteirosImpares()
+    exercicio.primeirosCemInteirosImpares(10,20)
 
     //Exercicio 5
-    println(exercicio.validaCondicao(listOf(4,4,1,1)))*/
+    println(exercicio.validaCondicao(listOf(4,4,1,1)))
 
     //Exercicio 6
-    exercicio.imprimeInteiro()
+    exercicio.imprimeInteiros(10, 20)
 }

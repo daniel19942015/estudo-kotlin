@@ -1,5 +1,3 @@
-import kotlin.reflect.typeOf
-
 class Exercicios {
 
     //Exercicio 1
@@ -25,8 +23,8 @@ class Exercicios {
     }
 
     //Exercicio 4
-    fun primeirosCemInteirosImpares(){
-        for(i: Int in 0 until 100){
+    fun primeirosCemInteirosImpares(to: Int, from: Int){
+        for(i: Int in to until from){
             if(i % 2 != 0) {
                 println(i)
             }
@@ -44,8 +42,8 @@ class Exercicios {
     }
 
     //Excercicio 6
-    fun imprimeInteiro(){
-            for(i: Int in 106 until 1000){
+    fun imprimeInteiros(to: Int, from: Int) {
+            for(i: Int in to until from){
                 println(i)
                 if(i.toString()[2] == '9'){
                     println("----------------")
