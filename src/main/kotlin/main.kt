@@ -1,24 +1,25 @@
 fun main(args: Array<String>) {
     //First program
-    val exercicio = Exercicios()
+    val excercise = Excercise()
 
     //Exercicio 1
-    exercicio.validaNumeros(listOf(
-        1,
-        2,
-        3,
-        0,
-        8))
+    excercise.max(listOf(1, 2, 16, 3, 0, 8))
+
+    //Exercicio 1.1
+    excercise.min(listOf(16, 3, 2, 8))
+
+    //Exercicio 2
+    excercise.validateString("a", "b")
 
     //Exercicio 3
-    //println(exercicio.analisaNumeroPar(4))
+    excercise.analiseNumberPar(4)
 
     //Exercicio 4
-    exercicio.primeirosCemInteirosImpares(10,20)
+    excercise.firstInteger(10,100)
 
     //Exercicio 5
-    println(exercicio.validaCondicao(listOf(4,4,1,1)))
+    excercise.validateCondition(listOf(4,4,1,1))
 
     //Exercicio 6
-    exercicio.imprimeInteiros(10, 20)
+    excercise.printInteger(100, 200)
 }
