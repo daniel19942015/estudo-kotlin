@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
     excercise.printInteger(100, 200)*/
 
     val multiplo = Multiplos(listOf(1,2,3,4,8))
-    val cliente = Cliente(66, 'M', 30)
+    val cliente = Cliente(24, 'f', 30)
 
     println(cliente.validateYearsContribution())
 
