@@ -1,6 +1,9 @@
+import classes.exercicios.Cliente
+import classes.exercicios.Multiplos
+
 fun main(args: Array<String>) {
     //First program
-    val excercise = Excercise()
+   /* val excercise = Excercise()
 
     //Exercicio 1
     excercise.max(listOf(1, 2, 16, 3, 0, 8))
@@ -21,5 +24,13 @@ fun main(args: Array<String>) {
     excercise.validateCondition(listOf(4,4,1,1))
 
     //Exercicio 6
-    excercise.printInteger(100, 200)
+    excercise.printInteger(100, 200)*/
+
+    val multiplo = Multiplos(listOf(1,2,3,4,8))
+    val cliente = Cliente(66, 'M', 30)
+
+    println(cliente.validateYearsContribution())
+
+    println(multiplo.multiplicaValor())
+
 }

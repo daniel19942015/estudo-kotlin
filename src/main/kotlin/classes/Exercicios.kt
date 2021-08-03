@@ -1,3 +1,5 @@
+import classes.Print
+
 class Excercise: Print(){
 
     private var aux: Int = 0
