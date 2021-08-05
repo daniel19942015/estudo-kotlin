@@ -1,4 +1,4 @@
-import classes.Print
+package classes.`Exercicio-aula01`
 
 class Excercise: Print(){
 

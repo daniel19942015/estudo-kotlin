@@ -1,9 +1,9 @@
-import classes.exercicios.Cliente
-import classes.exercicios.Multiplos
+import classes.`Exercicio-aula02`.Cliente
+import classes.`Exercicio-aula02`.Multiplos
 
 fun main(args: Array<String>) {
     //First program
-   /* val excercise = Excercise()
+   /* val excercise = classes.`Exercicio-aula01`.Excercise()
 
     //Exercicio 1
     excercise.max(listOf(1, 2, 16, 3, 0, 8))

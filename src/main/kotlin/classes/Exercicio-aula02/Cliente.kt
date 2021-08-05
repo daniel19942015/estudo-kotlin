@@ -1,4 +1,4 @@
-package classes.exercicios
+package classes.`Exercicio-aula02`
 
 class Cliente(private var idade: Int,
               private var sexo: Char,

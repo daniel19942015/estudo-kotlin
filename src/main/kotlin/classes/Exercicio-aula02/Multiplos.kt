@@ -1,4 +1,4 @@
-package classes.exercicios
+package classes.`Exercicio-aula02`
 
 class Multiplos(var list: List<Int>) {
 
